@@ -99,8 +99,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-	  align-items: center;
-    height: 300px;
+    align-items: center;
     margin: 20px;
     width: 77%;
     background-color: #b6cceb;
@@ -187,6 +186,7 @@ body {
     #profile {
       width: 100%;
       height: max-content;
+      flex-wrap: wrap;
     }
  }
  @media screen and (max-width: 700px) {
